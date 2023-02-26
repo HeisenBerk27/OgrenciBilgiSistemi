@@ -4,6 +4,7 @@ www.patika.dev
 
 
 public class Student {
+
     String name,stuNo;
     int classes;
     Course mat;
@@ -101,6 +102,7 @@ public class Student {
 
 
 public class Course {
+
     Teacher courseTeacher;
     String name;
     String code;
@@ -136,6 +138,7 @@ public class Course {
 
 
 public class Teacher {
+
     String name;
     String mpno;
     String branch;
@@ -151,6 +154,7 @@ public class Teacher {
 
 
 public class Main {
+
     public static void main(String[] args) {
 
         Course mat = new Course("Matematik", "MAT101", "MAT");
